@@ -61,6 +61,9 @@ func main() {
 	m["five"] = 5 // add new item
 	fmt.Println(m)
 
+	// non-existent key will return default value
+	fmt.Println(m["six"])
+
 	for i := 0; i < 3; i++ {
 		switch i {
 		case 0: // do nothing, six not in m
