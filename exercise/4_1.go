@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func average(s ...float64) (result float64) {
+func average(s []float64) (result float64) {
 	for _, i := range s {
 		result += i
 	}
@@ -10,7 +10,5 @@ func average(s ...float64) (result float64) {
 }
 
 func main() {
-	fmt.Println(average(1.1, 1.2, 1.3))
-	fmt.Println(average(1.1, 1.2, 1.3, 1.4, 1.5))
-	fmt.Println(average(1.1, 1.2, 1.3, 10, 20))
+	fmt.Println(average([]float64{1.1, 1.2, 1.3}))
 }
