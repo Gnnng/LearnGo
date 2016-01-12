@@ -49,7 +49,7 @@ func main() {
 	// for with break or continue is same as its actions in C
 	// or
 outerLoop:
-	for i := 0; i < 3; i++ {
+	for i := 0; i < 3; i++ { // i++ and i-- are not expressions but statements
 	innerLoop:
 		for j := 0; j < 5; j++ {
 			if j > 4 {
