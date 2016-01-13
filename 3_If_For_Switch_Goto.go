@@ -82,6 +82,13 @@ outerLoop:
 		fmt.Println("5, 6 & 7")
 	}
 
+	switch k := 10; {
+	case k < 5:
+		fmt.Println("k < 5")
+	case k > 5:
+		fmt.Println("k > 5")
+	}
+
 	// goto
 	accessed := false
 aLabel:
