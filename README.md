@@ -40,4 +40,7 @@ It comes from http://tip.golang.org/misc/git/pre-commit
 # Thanks
 
 [Learning Go (original)](https://github.com/miekg/learninggo)
+
 [Learning Go (中文版)](https://github.com/mikespook/Learning-Go-zh-cn)
+
+[Effective Go](https://golang.org/doc/effective_go.html)
