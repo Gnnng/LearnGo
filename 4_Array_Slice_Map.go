@@ -19,9 +19,11 @@ func main() {
 
 	// create 2-dimension array
 	a2 := [2][2]int{}
+	linesOfText := [][]byte{[]byte("line 1"), []byte("line 2")}
 	//a2 := [2][2]int  // not valid
 
 	fmt.Println("a2 is: ", a2)
+	fmt.Println("linesOfText", linesOfText)
 
 	// slice creation
 	sl := make([]int, 5)
